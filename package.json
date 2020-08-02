@@ -1,0 +1,13 @@
+{
+    "name": "root",
+    "private": true,
+    "scripts": {
+      "ls": "lerna ls",
+      "pub": "lerna publish",
+      "test": "lerna run test",
+      "bootstrap": "rimraf packages/*/*/dist/ && lerna bootstrap"
+    },
+    "devDependencies": {
+      "lerna": "^3.16.4"
+    }
+  }
